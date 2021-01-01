@@ -1,0 +1,11 @@
+{
+  "password": "密碼",
+  "logout": "登出",
+  "old_password": "舊密碼",
+  "new_password": "新密碼",
+  "confirm_password": "確認密碼",
+  "change_password": "更改密碼",
+  "current_password": "當前密碼",
+  "return": "返回",
+  "change": "更改"
+}

@@ -1,0 +1,9 @@
+{
+    "process": "방법",
+    "approve": "승인",
+    "reject": "받지 않다",
+    "transaction_hash": "거래 해시",
+    "fee": "회비",
+    "approval_list": "승인 목록",
+    "required": "하나 이상의 행을 선택해야합니다"
+}

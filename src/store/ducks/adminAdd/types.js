@@ -1,0 +1,2 @@
+export const POST_ADDADMIN= "POST_ADDADMIN";
+export const POST_USERGROUP= "POST_USERGROUP";

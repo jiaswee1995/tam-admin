@@ -1,0 +1,10 @@
+{
+  "notification_list": "通知列表",
+  "modules_id": "模组ID",
+  "locale": "語言",
+  "message": "信息",
+  "sent_at": "發送於",
+  "sent_by": "發送由",
+  "subject": "主題",
+  "notification_add": "通知添加"
+}

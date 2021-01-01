@@ -1,0 +1,45 @@
+@import "./button.scss";
+
+.bg-light { background-color: #fff }
+
+.p-5 { padding: 20px }
+.p-4 { padding: 15px }
+.p-3 { padding: 10px }
+.p-2 { padding: 5px }
+.p-1 { padding: 3px }
+
+.pl-2 { padding-left: 5px }
+
+.pb-0 { padding-bottom: 0px}
+
+.m-5 { margin: 20px }
+.m-0 { margin: 1px }
+
+.ml-5 { margin-left: 20px }
+.ml-4 { margin-left: 15px }
+.ml-3 { margin-left: 10px }
+.ml-2 { margin-left: 5px }
+
+.mt-6 { margin-top: 25px }
+.mt-5 { margin-top: 20px }
+.mt-4 { margin-top: 15px }
+.mt-3 { margin-top: 10px }
+.mt-2 { margin-top: 5px }
+
+.mr-0 { margin-right: 0px }
+
+.text-center { text-align: center }
+.text-left { text-align: left }
+.text-right { text-align: right }
+.text-uppercase { text-transform: uppercase }
+.text-lowercase { text-transform: lowercase }
+.text-capitalize { text-transform: capitalize }
+.text-light { color : white }
+
+.d-inline { display: inline }
+
+.w-10 { width: 100% }
+.w-7 { width: 70% }
+.w-5 { width: 50% }
+.w-4 { width: 40% }
+.w-2 { width: 20% }

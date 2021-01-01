@@ -1,0 +1,16 @@
+{
+  "member_list": "會員列表",
+  "referral_code": "推薦碼",
+  "contact_no": "聯繫号碼",
+  "status": "狀態",
+  "user_id": "用戶名",
+  "email": "電子郵件",
+  "sponsor": "推薦人",
+  "action": "操作",
+  "active": "活性",
+  "inactive": "待用",
+  "edit_member": "編輯成員",
+  "password": "密碼",
+  "confirm_change_password": "確認",
+  "confirm_change": "你想改變你的交易密碼？"
+}

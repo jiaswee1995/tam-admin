@@ -1,0 +1,16 @@
+{
+    "member_list": "회원 목록",
+    "referral_code": "추천 코드",
+    "contact_no": "연락 번호",
+    "status": "상태",
+    "user_id": "사용자 ID",
+    "email": "이메일",
+    "sponsor": "스폰서",
+    "action": "동작",
+    "active": "활성화",
+    "inactive": "비활성",
+    "edit_member": "편집 회원",
+    "password": "암호",
+    "confirm_change_password": "확인",
+    "confirm_change": "당신은 당신의 거래 암호를 변경 하시겠습니까?"
+}

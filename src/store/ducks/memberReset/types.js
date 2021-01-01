@@ -1,0 +1,1 @@
+export const POST_RESETMEMBER= "POST_RESETMEMBER";

@@ -1,0 +1,8 @@
+{
+  "transfer_list" : "轉帳列表",
+  "user_id_from" : "用戶名(從)",
+  "user_id_to" : "用戶名(至)",
+  "sponsor_user_id" : "推薦人",
+  "wallet_from" : "錢包(從)",
+  "wallet_to" : "錢包(至)"
+}

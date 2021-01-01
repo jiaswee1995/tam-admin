@@ -1,0 +1,10 @@
+{
+  "login": "Đăng nhập",
+  "please_input_your_email": "đầu vào xin vui lòng email của bạn",
+  "please_input_your_password": "đầu vào xin mật khẩu của bạn",
+  "username": "tên tài khoản",
+  "password": "Mật khẩu",
+  "failed_to_login": "Đăng nhập thất bại",
+  "please_enter_valid_email_address": "Vui lòng nhập một địa chỉ email hợp lệ.",
+  "invalid_user_credentials": "Tên truy nhập dan mật khẩu salah"
+}

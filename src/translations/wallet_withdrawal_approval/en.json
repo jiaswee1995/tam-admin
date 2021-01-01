@@ -1,0 +1,9 @@
+{
+  "process": "Process",
+  "approve": "Approve",
+  "reject": "Reject",
+  "transaction_hash": "Transaction Hash",
+  "fee": "Fee",
+  "approval_list": "Approval List",
+  "required": "At least one row must be selected"
+}

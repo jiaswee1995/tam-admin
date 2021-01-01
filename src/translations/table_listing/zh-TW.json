@@ -1,0 +1,21 @@
+{
+  "no": "號碼",
+  "total": "總额",
+  "items": "项目（S）",
+  "user_id": "用戶名",
+  "doc_no": "單號",
+  "wallet_type": "錢包類型",
+  "type": "類型",
+  "remark": "備註",
+  "amount": "金額",
+  "status": "狀態",
+  "created_at": "創建於",
+  "wallet_total_in": "錢包總信用",
+  "wallet_total_out": "錢包總借項",
+  "balance": "餘額",
+  "action": "操作",
+  "value": "数值",
+  "name": "名稱",
+  "locale": "語言環境",
+  "trans_date": "交易日期"
+}

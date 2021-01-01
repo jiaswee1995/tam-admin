@@ -1,0 +1,9 @@
+{
+  "process": "处理",
+  "approve": "批准",
+  "reject": "拒绝",
+  "transaction_hash": "交易哈希",
+  "fee": "费用",
+  "approval_list": "审核列表",
+  "required": "至少必须选择一行"
+}

@@ -1,0 +1,12 @@
+{
+    "total_in": "전체로",
+    "total_out": "총 아웃",
+    "title_statement": "지갑 문",
+    "transfer_detail": "전송 세부 정보",
+    "name": "이름",
+    "join_date": "가입 날짜",
+    "member_type": "회원 유형",
+    "packageNode": "패키지 / 노드",
+    "current_summary": "현재 요약",
+    "transaction_details": "상세 거래 내역"
+}

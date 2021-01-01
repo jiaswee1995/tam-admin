@@ -1,0 +1,11 @@
+{
+    "password" : "Password",
+    "logout" : "Logout",
+    "old_password" : "Old Password",
+    "new_password" : "New Password",
+    "confirm_password" : "Confirm Password",
+    "change_password" : "Change Password",
+    "current_password" : "Current Password",
+    "return" : "Return",
+    "change" : "Change"
+}

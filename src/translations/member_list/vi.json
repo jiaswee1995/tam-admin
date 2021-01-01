@@ -1,0 +1,16 @@
+{
+  "member_list": "Danh sách thành viên",
+  "referral_code": "Referral Mã",
+  "contact_no": "Liên hệ với No.",
+  "status": "Trạng thái",
+  "user_id": "Tên người dùng",
+  "email": "E-mail",
+  "sponsor": "Nhà tài trợ",
+  "action": "Hoạt động",
+  "active": "kích hoạt",
+  "inactive": "Không hoạt động",
+  "edit_member": "Sửa Member",
+  "password": "Mật khẩu",
+  "confirm_change_password": "sự xác nhận",
+  "confirm_change": "Bạn có muốn thay đổi mật khẩu giao dịch của bạn?"
+}

@@ -1,0 +1,5 @@
+{
+  "field_required": "This field is required",
+  "max": "Value cannot be exceed",
+  "min": "Value cannot be less than"
+}

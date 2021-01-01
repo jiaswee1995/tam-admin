@@ -1,0 +1,14 @@
+{
+  "bet_transaction_list" : "Đặt cược Danh sách giao dịch",
+  "mach_code" : "Mã máy",
+  "trans_id" : "ID giao dịch",
+  "bet_line" : "Dòng Bet",
+  "bet_token" : "Bet Mã",
+  "bet_tot" : "Bet Tổng số",
+  "pay_line" : "Pay Dòng",
+  "pay_token" : "Pay Mã",
+  "pay_tot" : "Pay Tổng số",
+  "pay_win_rate": "Pay Win Rate",
+  "stop_at": "dừng Tại",
+  "pay_rate": "Pay Rate"
+}

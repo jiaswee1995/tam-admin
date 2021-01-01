@@ -1,0 +1,10 @@
+{
+  "login": "登录",
+  "please_input_your_email": "请输入您的电子邮件",
+  "please_input_your_password": "请输入密码",
+  "username": "用户名",
+  "password": "密码",
+  "failed_to_login": "登录失败",
+  "please_enter_valid_email_address": "请输入有效的电子邮件地址",
+  "invalid_user_credentials": "无效的用户名或密码"
+}

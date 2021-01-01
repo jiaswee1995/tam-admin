@@ -1,0 +1,37 @@
+.ant-layout-header.header { background: white; }
+.ant-layout-header.header.header-padding { padding: 10px }
+
+.ant-dropdown-menu-item{
+  min-width: 160px;
+}
+
+.avatarMenu {
+ margin-top: 16px;
+}
+
+.lang {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.lang-menu {
+  margin-top: 13px;
+}
+
+.avatar {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.ant-modal{
+  padding-bottom: 0px;
+  .ant-modal-footer {
+    padding: 10px 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .overlayMenu {
+    width: 100% !important;
+  }
+}

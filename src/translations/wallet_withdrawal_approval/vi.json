@@ -1,0 +1,9 @@
+{
+  "process": "Quá trình",
+  "approve": "Phê duyệt",
+  "reject": "Từ chối",
+  "transaction_hash": "Hash giao dịch",
+  "fee": "Học phí",
+  "approval_list": "Danh sách chính",
+  "required": "Ít nhất một hàng phải được chọn"
+}

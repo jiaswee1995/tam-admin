@@ -1,0 +1,14 @@
+{
+    "bet_transaction_list" : "投币交易列表",
+    "mach_code" : "投币机码",
+    "trans_id" : "交易ID",
+    "bet_line" : "投注线",
+    "bet_token" : "投注币",
+    "bet_tot" : "总投注",
+    "pay_line" : "中奖线",
+    "pay_token" : "中奖币",
+    "pay_tot" : "总支付",
+    "pay_win_rate": "支付赢率",
+    "stop_at": "停止在",
+    "pay_rate": "支付率"
+}

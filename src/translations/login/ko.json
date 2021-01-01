@@ -1,0 +1,10 @@
+{
+    "login": "로그인",
+    "please_input_your_email": "입력하세요 이메일",
+    "please_input_your_password": "입력하세요 비밀번호",
+    "username": "사용자 이름",
+    "password": "암호",
+    "failed_to_login": "로그인 실패",
+    "please_enter_valid_email_address": "유효한 이메일 주소를 입력하세요.",
+    "invalid_user_credentials": "잘못된 사용자 이름 또는 암호"
+}

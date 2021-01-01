@@ -1,0 +1,13 @@
+{
+  "total_in": "total Dalam",
+  "total_out": "Jumlah Out",
+  "wallet_statement": "Pernyataan dompet",
+  "title_statement": "transfer Detil",
+  "transfer_detail": "Nama",
+  "name": "Nama",
+  "join_date": "bergabung",
+  "member_type": "anggota Type",
+  "packageNode": "Paket / Node",
+  "current_summary": "Ringkasan saat ini",
+  "transaction_details": "Detil transaksi"
+}

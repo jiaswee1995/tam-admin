@@ -1,0 +1,2 @@
+export const POST_MEM_OTP= "POST_MEM_OTP";
+export const POST_OTP_TYPE_LIST= "POST_OTP_TYPE_LIST";

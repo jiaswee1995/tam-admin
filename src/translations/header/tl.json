@@ -1,0 +1,11 @@
+{
+  "password": "password",
+  "logout": "Mag-logout",
+  "old_password": "Lumang password",
+  "new_password": "bagong Password",
+  "confirm_password": "Kumpirmahin ang Password",
+  "change_password": "Palitan ANG password",
+  "current_password": "kasalukuyang Password",
+  "return": "pagbabalik",
+  "change": "pagbabago"
+}

@@ -1,0 +1,21 @@
+{
+    "no": "아니.",
+    "total": "합계",
+    "items": "항목 (들)",
+    "user_id": "사용자 ID",
+    "doc_no": "문서 번호",
+    "wallet_type": "지갑 유형",
+    "type": "유형",
+    "remark": "말",
+    "amount": "양",
+    "status": "상태",
+    "created_at": "에서 만든",
+    "wallet_total_in": "지갑 전체에서",
+    "wallet_total_out": "지갑 총 아웃",
+    "balance": "밸런스",
+    "action": "동작",
+    "value": "값",
+    "name": "이름",
+    "locale": "장소",
+    "trans_date": "거래 날짜"
+}

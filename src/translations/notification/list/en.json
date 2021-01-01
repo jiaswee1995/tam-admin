@@ -1,0 +1,10 @@
+{
+    "notification_list": "Notification List",
+    "modules_id": "Modules ID",
+    "locale": "Locale",
+    "message": "Message",
+    "sent_at": "Sent At",
+    "sent_by": "Sent By",
+    "subject": "Subject",
+    "notification_add": "Notification Add"
+}

@@ -1,0 +1,21 @@
+{
+  "no": "ID",
+  "total": "Toàn bộ",
+  "items": "mặt hàng",
+  "user_id": "Tên người dùng",
+  "doc_no": "Doc số",
+  "wallet_type": "Loại Wallet",
+  "type": "Kiểu",
+  "remark": "chú ý",
+  "amount": "Số tiền",
+  "status": "Trạng thái",
+  "created_at": "tạo Tại",
+  "wallet_total_in": "Wallet Tổng số Trong",
+  "wallet_total_out": "Wallet Tổng Out",
+  "balance": "Thăng bằng",
+  "action": "Hoạt động",
+  "value": "Giá trị",
+  "name": "Tên",
+  "locale": "locale",
+  "trans_date": "Ngày Giao dịch"
+}

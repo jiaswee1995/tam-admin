@@ -1,0 +1,9 @@
+{
+  "process": "Proses",
+  "approve": "Menyetujui",
+  "reject": "Menolak",
+  "transaction_hash": "Hash transaksi",
+  "fee": "Biaya",
+  "approval_list": "Daftar persetujuan",
+  "required": "Setidaknya satu baris harus dipilih"
+}

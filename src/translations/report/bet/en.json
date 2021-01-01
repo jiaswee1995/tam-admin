@@ -1,0 +1,14 @@
+{
+    "bet_transaction_list" : "Bet Transaction List",
+    "mach_code" : "Machine Code",
+    "trans_id" : "Transaction ID",
+    "bet_line" : "Bet Line",
+    "bet_token" : "Bet Token",
+    "bet_tot" : "Bet Total",
+    "pay_line" : "Pay Line",
+    "pay_token" : "Pay Token",
+    "pay_tot" : "Pay Total",
+    "pay_win_rate": "Pay Win Rate",
+    "stop_at": "Stop At",
+    "pay_rate": "Pay Rate"
+}

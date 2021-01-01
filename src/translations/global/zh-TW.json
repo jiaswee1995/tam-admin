@@ -1,0 +1,15 @@
+{
+  "app_name": "Slot777",
+  "submit": "Submit",
+  "add": "Add",
+  "next": "Next",
+  "previous": "Previous",
+  "remark": "Remark",
+  "wallet_type": "Wallet Type",
+  "user_id": "User Id",
+  "date": "Date",
+  "amount": "Amount",
+  "admin_remark": "Admin Remark",
+  "user_remark": "User Remark",
+  "no_data": "No Data"
+}

@@ -1,0 +1,23 @@
+{
+  "sicbo_weekly_sales": "骰宝周期收入",
+  "slot_weekly_sales": "老虎机周期收入",
+  "roulette_weekly_sales": "轮盘周期收入",
+  "no": "号",
+  "from": "从",
+  "to": "到",
+  "bet_total": "下注总额",
+  "bet_count": "下注总数",
+  "pay_total": "支付总额",
+  "pay_rate": "支付率",
+  "table_code": "桌号",
+  "user_id": "用户",
+  "dice_result": "骰子",
+  "bet_tot": "总下注",
+  "pay_return": "本金支付",
+  "pay_win": "胜支付",
+  "pay_tot": "总支付",
+  "pay_win_rate": "支付率",
+  "created_at": "创建日期",
+  "action": "设定",
+  "select_table": "选桌"
+}

@@ -1,0 +1,13 @@
+{
+  "total_in": "總信用",
+  "total_out": "總借项",
+  "wallet_statement": "錢包报表",
+  "title_statement": "錢包报表",
+  "transfer_detail": "轉帐詳細",
+  "name": "名稱",
+  "join_date": "註冊日期",
+  "member_type": "會員類型",
+  "packageNode": "配套/節點",
+  "current_summary": "當前概要",
+  "transaction_details": "交易明細"
+}

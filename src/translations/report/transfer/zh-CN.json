@@ -1,0 +1,8 @@
+{
+    "transfer_list" : "转帐列表",
+    "user_id_from" : "用户名(从)",
+    "user_id_to" : "用户名(至)",
+    "sponsor_user_id" : "推荐人",
+    "wallet_from" : "钱包(从)",
+    "wallet_to" : "钱包(至)"
+}

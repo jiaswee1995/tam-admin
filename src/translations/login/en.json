@@ -1,0 +1,10 @@
+{
+  "login": "Login",
+  "please_input_your_email": "Please input your email",
+  "please_input_your_password": "Please input your password",
+  "username": "Username",
+  "password": "Password",
+  "failed_to_login": "Failed to login",
+  "please_enter_valid_email_address": "Please enter a valid email address.",
+  "invalid_user_credentials": "Invalid username or password"
+}

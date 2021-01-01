@@ -1,0 +1,11 @@
+{
+  "password": "Kata Laluan",
+  "logout": "Log Keluar",
+  "old_password": "kata laluan lama",
+  "new_password": "kata laluan baru",
+  "confirm_password": "konfirmasi sandi",
+  "change_password": "Ganti kata sandi",
+  "current_password": "kata sandi saat ini",
+  "return": "Kembali",
+  "change": "Perubahan"
+}

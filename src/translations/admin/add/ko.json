@@ -1,0 +1,11 @@
+{
+    "require_user_group": "관리자 추가",
+    "email": "이메일",
+    "user_group": "사용자 그룹",
+    "password": "암호",
+    "add": "더하다",
+    "back": "뒤",
+    "please_select": "이메일이 필요합니다",
+    "require_password": "비밀번호가 필요합니다",
+    "require_user_group": "사용자 그룹이 필요합니다"
+}

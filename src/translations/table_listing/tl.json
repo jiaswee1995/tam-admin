@@ -1,0 +1,21 @@
+{
+  "no": "ID",
+  "total": "total",
+  "items": "(mga) item",
+  "user_id": "ID ng gumagamit",
+  "doc_no": "Doc No.",
+  "wallet_type": "Uri ng wallet",
+  "type": "uri",
+  "remark": "pangungusap",
+  "amount": "dami",
+  "status": "katayuan",
+  "created_at": "nilikha Sa",
+  "wallet_total_in": "Wallet Kabuuang In",
+  "wallet_total_out": "Wallet Kabuuang Out",
+  "balance": "balanse",
+  "action": "aksyon",
+  "value": "halaga",
+  "name": "pangalan",
+  "locale": "locale",
+  "trans_date": "Petsa ng transaksyon"
+}

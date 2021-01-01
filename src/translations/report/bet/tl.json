@@ -1,0 +1,14 @@
+{
+  "bet_transaction_list" : "Pusta Transaksyon List",
+  "mach_code" : "machine Code",
+  "trans_id" : "ID ng transaksyon",
+  "bet_line" : "Bet Line",
+  "bet_token" : "taya Token",
+  "bet_tot" : "Bet Kabuuang",
+  "pay_line" : "pay Line",
+  "pay_token" : "pay Token",
+  "pay_tot" : "pay Kabuuang",
+  "pay_win_rate": "Pay Win Rate",
+  "stop_at": "Itigil Sa",
+  "pay_rate": "pay Rate"
+}

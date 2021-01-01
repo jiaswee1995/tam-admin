@@ -1,0 +1,15 @@
+{
+    "reward" : "Reward",
+    "reward_list" : "Reward List",
+    "created_date" : "Created Date",
+    "sponsor" : "Sponsor",
+    "roi_bonus" : "ROI Bonus",
+    "uni_level_bonus" : "Uni Level Bonus",
+    "win_bonus" : "Win Bonus",
+    "total_bonus" : "Total Bonus",
+    "summary" : "Summary",
+    "roi" : "ROI",
+    "unilevel" : "Uni Level",
+    "win" : "Win",
+    "bns_date" : "Date"
+}

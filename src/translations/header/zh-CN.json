@@ -1,0 +1,11 @@
+{
+  "password": "密码",
+  "logout": "登出",
+  "old_password": "旧密码",
+  "new_password": "新密码",
+  "confirm_password": "确认密码",
+  "change_password": "更改密码",
+  "current_password": "当前密码",
+  "return": "返回",
+  "change": "更改"
+}

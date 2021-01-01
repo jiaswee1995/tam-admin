@@ -1,0 +1,23 @@
+{
+  "sicbo_weekly_sales": "Sicbo Weekly Sales",
+  "slot_weekly_sales": "slot Weekly Sales",
+  "roulette_weekly_sales": "Roulette Weekly Sales",
+  "no": "No",
+  "from": "From",
+  "to": "To",
+  "bet_total": "Bet Total",
+  "bet_count": "Bet Count",
+  "pay_total": "Pay Total",
+  "pay_rate": "Pay Rate",
+  "table_code": "Table Code",
+  "user_id": "User ID",
+  "dice_result": "Dice Result",
+  "bet_tot": "Bet Tot",
+  "pay_return": "Pay Return",
+  "pay_win": "Pay Win",
+  "pay_tot": "Pay Tot",
+  "pay_win_rate": "Pay Win Rate",
+  "created_at": "Created At",
+  "action": "Action",
+  "select_table": "Select Table"
+}

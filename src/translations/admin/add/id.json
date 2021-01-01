@@ -1,0 +1,12 @@
+{
+  "admin_add": "Tambah Admin",
+  "email": "Surel",
+  "user_group": "Grup pengguna",
+  "password" : "Kata sandi",
+  "add" : "Menambahkan",
+  "back" : "Kembali",
+  "please_select" : "Silahkan pilih",
+  "require_email" : "Email diperlukan",
+  "require_password" : "katakunci dibutuhkan",
+  "require_user_group" : "User Group diperlukan"
+}

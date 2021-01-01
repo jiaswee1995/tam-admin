@@ -1,0 +1,11 @@
+{
+  "dashboard": "Dashboard",
+  "total_sales_this_month": "Total Sales This Month",
+  "sales_today": "Sales Today",
+  "sales_this_week": "This Week",
+  "sales_last_month": "Last Month",
+  "new_member_this_month" : "New Member in This Month",
+  "member_today" : "Today",
+  "this_week": "This Week",
+  "last_month": "Last Month"
+}

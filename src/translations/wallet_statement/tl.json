@@ -1,0 +1,13 @@
+{
+  "total_in": "Kabuuang In",
+  "total_out": "Kabuuang Out",
+  "wallet_statement": "Statement wallet",
+  "title_statement": "transfer Detalye",
+  "transfer_detail": "transfer Detalye",
+  "name": "pangalan",
+  "join_date": "Sumali sa date",
+  "member_type": "Tipo ng Miyembro",
+  "packageNode": "Package / Node",
+  "current_summary": "kasalukuyang Buod",
+  "transaction_details": "Mga Detalye ng transaksyon"
+}

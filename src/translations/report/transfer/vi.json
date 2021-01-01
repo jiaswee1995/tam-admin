@@ -1,0 +1,8 @@
+{
+  "transfer_list" : "Danh sách chuyển nhượng",
+  "user_id_from" : "User ID (Từ)",
+  "user_id_to" : "User ID (To)",
+  "sponsor_user_id" : "Nhà tài trợ User ID",
+  "wallet_from" : "Wallet Từ",
+  "wallet_to" : "Wallet Để"
+}

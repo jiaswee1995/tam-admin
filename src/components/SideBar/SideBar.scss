@@ -1,0 +1,43 @@
+.ant-layout-sider-children {
+  height: 100vh !important;
+}
+
+.menu {
+  :global(.anticon) {
+    margin-right: 8px;
+  }
+  :global(.ant-dropdown-menu-item) {
+    min-width: 160px;
+  }
+}
+
+.trigger {
+  font-size: 20px;
+}
+ 
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .body{
+     overflow: hidden;
+  }
+
+  .ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-below{
+     z-index: 100;
+  }
+}
+
+

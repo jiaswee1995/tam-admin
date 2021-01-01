@@ -1,0 +1,10 @@
+{
+  "login": "Mag log in",
+  "please_input_your_email": "Mangyaring ipasok ang inyong email",
+  "please_input_your_password": "Mangyaring input ang iyong password",
+  "username": "username",
+  "password": "password",
+  "failed_to_login": "Nabigong pag-login",
+  "please_enter_valid_email_address": "Mangyaring magpasok ng isang wastong email address.",
+  "invalid_user_credentials": "Tên truy nhập dan Mat Khau salah"
+}

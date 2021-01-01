@@ -1,0 +1,12 @@
+{
+    "admin_add": "添加管理员",
+    "email": "电子邮件",
+    "user_group": "用户组",
+    "password" : "密码",
+    "add" : "添加",
+    "back" : "返回",
+    "please_select" : "请选择",
+    "require_email" : "电子邮件是必需的",
+    "require_password" : "密码是必需的",
+    "require_user_group" : "用户组是必需的"
+}

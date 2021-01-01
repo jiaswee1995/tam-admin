@@ -1,0 +1,25 @@
+
+.top-layout-content {
+    background: #fff;
+    min-height: 125px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+  }
+
+.member-form {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+.ant-form.ant-form-horizontal.member-form{
+  text-align: center;
+  .ant-row.ant-form-item.tail{
+      .ant-col.ant-col-16.ant-form-item-control{
+          margin: auto;
+          
+          .button-group{
+            text-align: center
+          }
+      }
+  }
+}

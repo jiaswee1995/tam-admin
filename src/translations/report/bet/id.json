@@ -1,0 +1,14 @@
+{
+  "bet_transaction_list" : "Bet Transaction List",
+  "mach_code" : "Kode mesin",
+  "trans_id" : "ID transaksi",
+  "bet_line" : "Bet Baris",
+  "bet_token" : "Bet Token",
+  "bet_tot" : "Bet Jumlah",
+  "pay_line" : "bayar Baris",
+  "pay_token" : "bayar Token",
+  "pay_tot" : "Pay Jumlah",
+  "pay_win_rate": "Bayar Win Tingkat",
+  "stop_at": "berhenti Pada",
+  "pay_rate": "Upah"
+}

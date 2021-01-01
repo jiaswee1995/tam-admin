@@ -1,0 +1,14 @@
+.adjustment-form {
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+    .button-group {
+        text-align: center;
+        .ant-btn.login-form-button.ant-btn-primary.ant-btn-block {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+

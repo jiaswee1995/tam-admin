@@ -1,0 +1,13 @@
+{
+  "total_in": "Total In",
+  "total_out": "Total Out",
+  "wallet_statement": "Wallet Statement",
+  "title_statement": "Wallet Statement",
+  "transfer_detail": "Transfer Detail",
+  "name": "Name",
+  "join_date": "Join Date",
+  "member_type": "Member Type",
+  "packageNode": "Package / Node",
+  "current_summary": "Current Summary",
+  "transaction_details": "Transaction Details"
+}

@@ -1,0 +1,151 @@
+.edit_table_root{
+  .cusinput {
+    width: 100%;
+    padding: 4px 11px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  .cusinput[type="text"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border:1px solid #5AB0DB;
+  }
+}
+
+.double_dice_row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  .red_num{
+    color: red;
+  }
+}
+
+.dice_img {
+  border: 1px solid black;
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+.resultCell__row{
+  .ant-row{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.roul_wheel_cell_edit_row{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.roul_result_num_col {
+  padding-top: 10px;
+
+  .roul_result_num{
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .result_GREEN {
+    background-color: green;
+    color: white;
+  }
+  .result_RED {
+    background-color: red;
+    color: white;
+  }
+  .result_BLACK {
+    background-color: black;
+    color: white;
+  }
+  .result_PLAYER{
+    border-color: blue;
+    color: blue;
+  }
+  .result_BANKER{
+    border-color: red;
+    color: red;
+  }
+  .result_TIE {
+    border-color: green;
+    color: green;
+  }
+
+}
+
+.card__img {
+  width: 60px;
+  height: auto;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+.col__PLAYER{
+  border-right: 1px solid #ccc;
+}
+
+.roul_edit_odds{
+  img{
+    width: 550px;
+    height: auto;
+  }
+  // .okielaaaa{
+  //   background-color: chartreuse !important;
+  // }
+  .bt_1 {
+    background-color: #c42410 !important;
+  }
+  .bt_2 {
+    background-color: #ff5501 !important;
+  }
+  .bt_3 {
+    background-color: #f3d863 !important;
+  }
+  .bt_4 {
+    background-color: #f3d863 !important;
+  }
+  .bt_5 {
+    background-color: #80f3f5 !important;
+  }
+  .bt_6 {
+    background-color: #0443fd !important;
+  }
+  .bt_7 {
+    background-color: #6813d0 !important;
+  }
+  .bt_8 {
+    background-color: #122469 !important;
+  }
+  .bt_9 {
+    background-color: #122469 !important;
+  }
+  .bt_10 {
+    background-color: #122469 !important;
+  }
+  .bt_11 {
+    background-color: #de3966 !important;
+  }
+  .bt_12 {
+    background-color: #0d0608 !important;
+  }
+  .bt_13 {
+    background-color: #818181 !important;
+  }
+  .bt_14 {
+    background-color: #6b1d13 !important;
+  }
+  .bt_15 {
+    background-color: #ffffff !important;
+  }
+  .bt_16 {
+    background-color: #22a404 !important;
+  }
+}

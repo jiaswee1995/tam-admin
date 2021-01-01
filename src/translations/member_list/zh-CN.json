@@ -1,0 +1,16 @@
+{
+  "member_list": "会员列表",
+  "referral_code": "推荐码",
+  "contact_no": "联系号码",
+  "status": "状态",
+  "user_id": "用户名",
+  "email": "电子邮件",
+  "sponsor": "推荐人",
+  "action": "操作",
+  "active": "以激活",
+  "inactive": "不活跃",
+  "edit_member": "编辑成员",
+  "password": "密码",
+  "confirm_change_password": "确认",
+  "confirm_change": "你想改变你的交易密码？"
+}

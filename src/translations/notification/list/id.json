@@ -1,0 +1,10 @@
+{
+  "notification_list": "Daftar pemberitahuan",
+  "modules_id": "modul ID",
+  "locale": "lokal",
+  "message": "Pesan",
+  "sent_at": "dikirim Pada",
+  "sent_by": "Dikirim oleh",
+  "subject": "Subyek",
+  "notification_add": "Notifikasi Tambah"
+}

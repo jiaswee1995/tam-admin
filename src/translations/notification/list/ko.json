@@ -1,0 +1,10 @@
+{
+    "notification_list": "알림 목록",
+    "modules_id": "모듈 ID",
+    "locale": "장소",
+    "message": "메시지",
+    "sent_at": "에서 보낸",
+    "sent_by": "에 의해 전송",
+    "subject": "제목",
+    "notification_add": "알림 추가"
+}

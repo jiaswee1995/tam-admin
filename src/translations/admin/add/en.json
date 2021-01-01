@@ -1,0 +1,12 @@
+{
+    "admin_add": "Admin Add",
+    "email": "Email",
+    "user_group": "User Group",
+    "password" : "Password",
+    "add" : "Add",
+    "back" : "Back",
+    "please_select" : "Please Select",
+    "require_email" : "Email is required",
+    "require_password" : "Password is required",
+    "require_user_group" : "User Group is required"
+}

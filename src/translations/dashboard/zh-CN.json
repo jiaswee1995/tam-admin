@@ -1,0 +1,11 @@
+{
+  "dashboard": "仪表板",
+  "total_sales_this_month": "本月销售总额",
+  "sales_today": "今日销售额",
+  "sales_this_week": "这星期销售额",
+  "sales_last_month": "上个月售额",
+  "new_member_this_month" : "本月新会员",
+  "member_today" : "今日",
+  "this_week": "这星期",
+  "last_month": "上个月"
+}

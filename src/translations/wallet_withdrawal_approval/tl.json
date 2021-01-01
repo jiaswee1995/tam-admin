@@ -1,0 +1,9 @@
+{
+  "process": "paraan",
+  "approve": "aprobahan",
+  "reject": "Tanggihan",
+  "transaction_hash": "transaksyon Hash",
+  "fee": "bayad",
+  "approval_list": "Listahan ng Pag-apruba",
+  "required": "Hindi bababa sa isang hilera ay dapat mapili"
+}

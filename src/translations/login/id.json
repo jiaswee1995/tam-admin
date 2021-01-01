@@ -1,0 +1,10 @@
+{
+  "login": "Gabung",
+  "please_input_your_email": "Silahkan masukan email Anda",
+  "please_input_your_password": "Silakan masukan password Anda",
+  "username": "Nama pengguna",
+  "password": "Kata sandi",
+  "failed_to_login": "Gagal untuk masuk",
+  "please_enter_valid_email_address": "Silakan isi alamat email.",
+  "invalid_user_credentials": "username dan password salah"
+}

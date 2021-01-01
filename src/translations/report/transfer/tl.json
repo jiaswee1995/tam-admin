@@ -1,0 +1,8 @@
+{
+  "transfer_list" : "Listahan transfer",
+  "user_id_from" : "User ID (Mula sa)",
+  "user_id_to" : "User ID (Upang)",
+  "sponsor_user_id" : "Sponsor User ID",
+  "wallet_from" : "wallet Mula sa",
+  "wallet_to" : "wallet Upang"
+}

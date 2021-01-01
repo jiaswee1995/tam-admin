@@ -1,0 +1,12 @@
+{
+  "admin_add": "Add quản trị",
+  "email": "E-mail",
+  "user_group": "Nhóm người dùng",
+  "password" : "Mật khẩu",
+  "add" : "Thêm vào",
+  "back" : "Trở lại",
+  "please_select" : "Vui lòng chọn",
+  "require_email" : "Email thì cần thiết",
+  "require_password" : "Mật khẩu là cần thiết",
+  "require_user_group" : "Nhóm người dùng được yêu cầu"
+}

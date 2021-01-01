@@ -1,0 +1,13 @@
+{
+  "total_in": "Tổng số Trong",
+  "total_out": "Tổng Out",
+  "wallet_statement": "Tuyên bố Wallet",
+  "title_statement": "Tuyên bố Wallet",
+  "transfer_detail": "chuyển chi tiết",
+  "name": "Tên",
+  "join_date": "Ngày tham gia",
+  "member_type": "Loại thành viên",
+  "packageNode": "Gói / Node",
+  "current_summary": "Tóm tắt thông tin hiện tại",
+  "transaction_details": "chi tiết giao dịch"
+}

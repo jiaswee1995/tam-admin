@@ -1,0 +1,14 @@
+{
+    "bet_transaction_list": "거래 목록을 내기",
+    "mach_code": "기계 코드",
+    "trans_id": "트랜잭션 ID",
+    "bet_line": "베팅 라인",
+    "bet_token": "베팅 토큰",
+    "bet_tot": "베팅 총",
+    "pay_line": "유료 라인",
+    "pay_token": "유료 토큰",
+    "pay_tot": "지불 총",
+    "pay_win_rate": "유료 승리 비율",
+    "stop_at": "정류장에서",
+    "pay_rate": "임금 비율"
+}

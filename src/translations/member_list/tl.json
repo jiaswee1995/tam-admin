@@ -1,0 +1,16 @@
+{
+  "member_list": "Listahan ng Miyembro",
+  "referral_code": "referral Code",
+  "contact_no": "Makipag-ugnay sa No.",
+  "status": "katayuan",
+  "user_id": "ID ng gumagamit",
+  "email": "email",
+  "sponsor": "isponsor",
+  "action": "aksyon",
+  "active": "activated",
+  "inactive": "Hindi aktibo",
+  "edit_member": "Edit Miyembro",
+  "password": "password",
+  "confirm_change_password": "pagpapatibay",
+  "confirm_change": "Gusto mo bang baguhin ang iyong kalakalan password?"
+}

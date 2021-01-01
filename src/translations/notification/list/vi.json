@@ -1,0 +1,10 @@
+{
+  "notification_list": "Danh sách thông báo",
+  "modules_id": "module ID",
+  "locale": "locale",
+  "message": "Thông điệp",
+  "sent_at": "Sent Tại",
+  "sent_by": "Gửi bởi",
+  "subject": "Môn học",
+  "notification_add": "Thêm thông báo"
+}

@@ -1,0 +1,12 @@
+{
+  "admin_add": "Admin Add",
+  "email": "email",
+  "user_group": "Grupo ng mga manggagamit",
+  "password" : "password",
+  "add" : "magdagdag",
+  "back" : "likod",
+  "please_select" : "Pakipili",
+  "require_email" : "Email ay kinakailangan",
+  "require_password" : "Password ay kinakailangan",
+  "require_user_group" : "User Group ay kinakailangan"
+}

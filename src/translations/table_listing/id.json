@@ -1,0 +1,21 @@
+{
+  "no": "ID",
+  "total": "Total",
+  "items": "item (s)",
+  "user_id": "identitas pengguna",
+  "doc_no": "Doc No.",
+  "wallet_type": "dompet Jenis",
+  "type": "Tipe",
+  "remark": "Ucapan",
+  "amount": "Jumlah",
+  "status": "Status",
+  "created_at": "Dibuat di",
+  "wallet_total_in": "Dompet Jumlah Dalam",
+  "wallet_total_out": "Dompet Jumlah Out",
+  "balance": "Keseimbangan",
+  "action": "Tindakan",
+  "value": "Nilai",
+  "name": "Nama",
+  "locale": "lokal",
+  "trans_date": "tanggal transaksi"
+}

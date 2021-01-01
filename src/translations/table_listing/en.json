@@ -1,0 +1,21 @@
+{
+  "no": "No.",
+  "total": "Total",
+  "items": "item(s)",
+  "user_id": "User ID",
+  "doc_no": "Doc No.",
+  "wallet_type": "Wallet Type",
+  "type": "Type",
+  "remark": "Remark",
+  "amount": "Amount",
+  "status": "Status",
+  "created_at": "Created At",
+  "wallet_total_in": "Wallet Total In",
+  "wallet_total_out": "Wallet Total Out",
+  "balance": "Balance",
+  "action": "Action",
+  "value": "Value",
+  "name": "Name",
+  "locale": "Locale",
+  "trans_date": "Transaction Date"
+}

@@ -1,0 +1,16 @@
+{
+  "member_list": "Daftar anggota",
+  "referral_code": "Kode referral",
+  "contact_no": "Nomor kontak.",
+  "status": "Status",
+  "user_id": "Identitas pengguna",
+  "email": "Surel",
+  "sponsor": "Sponsor",
+  "action": "Tindakan",
+  "active": "diaktifkan",
+  "inactive": "non-aktif",
+  "edit_member": "mengedit Anggota",
+  "password": "Kata sandi",
+  "confirm_change_password": "Konfirmasi",
+  "confirm_change": "Apakah Anda ingin mengubah password trading anda?"
+}

@@ -1,0 +1,9 @@
+.ant-card-body{
+    text-align: center
+}
+
+@media only screen and (max-width: 768px) {
+    .ant-col{
+        flex: 0 0 100%;
+    }
+  }

@@ -1,0 +1,22 @@
+{
+  "member_list": "Member List",
+  "referral_code": "Referral Code",
+  "contact_no": "Contact No.",
+  "status": "Status",
+  "user_id": "User ID",
+  "email": "Email",
+  "sponsor": "Sponsor",
+  "action": "Action",
+  "active": "Activated",
+  "inactive": "Inactive",
+  "edit_member" : "Edit Member",
+  "password" : "Password",
+  "confirm_change_password" : "Confirmation",
+  "confirm_change" : "Do you want to change your trading password?",
+  "member_crypto_address_list": "Member Crypto Address List",
+  "crypto_addr": "Crypto Address",
+  "redeem_at": "Redeem At",
+  "address": "Address",
+  "crypto_type": "Crypto Type"
+
+}
