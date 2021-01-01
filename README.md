@@ -1,4 +1,4 @@
-# slot-admin
+# tam-admin
 
 ![slot-admin file structure](public/file-structure.png)
 
