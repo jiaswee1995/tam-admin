@@ -13,7 +13,7 @@ import { RoutingTest } from "./pages";
 import Store from "./store/store";
 import NotFound from './exception/notFound';
 import SideBar from "./components/SideBar";
-import SessionTimer from "./components/Timer";
+// import SessionTimer from "./components/Timer";
 import { Layout } from "antd";
 import RequiredAuth from "./common/middleware/authPermission";
 import RequiredPublicAuth from "./common/middleware/authPublicPermission";
