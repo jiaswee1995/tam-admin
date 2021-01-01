@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Timer.scss";
 import jwt from "jsonwebtoken";
-import { text } from "../../common/public-key";
+// import { text } from "../../common/public-key";
 import moment from "moment";
 import {Modal, Row, Button} from 'antd';
 import { postTokenRefresh } from "../../store/ducks/refreshToken/actions";
