@@ -45,9 +45,9 @@ class adminLogin extends Component{
     }
 
     componentWillMount() {
-        this.props.getLanguage();
-        sessionStorage.setItem("lang", sessionStorage.getItem("lang") !== null ? sessionStorage.getItem("lang") : this.state.lang);
-        setLocale(sessionStorage.getItem("lang") !== null ? sessionStorage.getItem("lang") : this.state.lang);
+        // this.props.getLanguage();
+        // sessionStorage.setItem("lang", sessionStorage.getItem("lang") !== null ? sessionStorage.getItem("lang") : this.state.lang);
+        // setLocale(sessionStorage.getItem("lang") !== null ? sessionStorage.getItem("lang") : this.state.lang);
     }
 
     UNSAFE_componentWillReceiveProps(nextProps, nextContext) {
@@ -134,18 +134,18 @@ class adminLogin extends Component{
             this.props.postAdminLogin(data);
         };
 
-        const language_arry = this.state.lang_arr.map(function(item, i){
-            return(<Option value={item.locale}>{item.name}</Option>);
-        });
+        // const language_arry = this.state.lang_arr.map(function(item, i){
+        //     return(<Option value={item.locale}>{item.name}</Option>);
+        // });
 
-        const select_language = (
-            <Select
-                defaultValue={sessionStorage.getItem("lang") !== null ? sessionStorage.getItem("lang") : this.state.lang}
-                style={{width: "100%"}} size="large"
-                onChange={this.handleChangeLanguage}>
-                {language_arry}
-            </Select>
-        );
+        // const select_language = (
+        //     <Select
+        //         defaultValue={sessionStorage.getItem("lang") !== null ? sessionStorage.getItem("lang") : this.state.lang}
+        //         style={{width: "100%"}} size="large"
+        //         onChange={this.handleChangeLanguage}>
+        //         {language_arry}
+        //     </Select>
+        // );
 
 
         return (
@@ -217,13 +217,13 @@ class adminLogin extends Component{
                             </Col>
                         </Row>
 
-                        <Row>
-                            <Col xs={24} md={24}>
-                                <Form.Item>
-                                    {select_language}
-                                </Form.Item>
-                            </Col>
-                        </Row>
+                        {/*<Row>*/}
+                        {/*    <Col xs={24} md={24}>*/}
+                        {/*        <Form.Item>*/}
+                        {/*            {select_language}*/}
+                        {/*        </Form.Item>*/}
+                        {/*    </Col>*/}
+                        {/*</Row>*/}
 
                         <Row>
                             <Col xs={24} md={24}>
