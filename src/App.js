@@ -135,12 +135,12 @@ function AppRouter() {
                         <SideBar />
                     }
 
-                    {auth &&
-                    sessionStorage.getItem("accessToken") !== null &&
-                    sessionStorage.getItem("accessToken") !== undefined &&
-                    sessionStorage.getItem("accessToken") !== "" &&
-                        <SessionTimer />
-                    }
+                    {/*{auth &&*/}
+                    {/*sessionStorage.getItem("accessToken") !== null &&*/}
+                    {/*sessionStorage.getItem("accessToken") !== undefined &&*/}
+                    {/*sessionStorage.getItem("accessToken") !== "" &&*/}
+                    {/*    <SessionTimer />*/}
+                    {/*}*/}
 
                     <Switch>
                         <Route exact path="/" component={RequiredPublicAuth(adminLogin)}/>
