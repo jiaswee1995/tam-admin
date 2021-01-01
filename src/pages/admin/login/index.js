@@ -8,7 +8,7 @@ import { LoadingOutlined } from '@ant-design/icons';
 import { postAdminLogin} from "../../../store/ducks/adminLogin/actions";
 import { getLanguage } from "../../../store/ducks/language/actions";
 
-import logo from "../../../public/images/logo-forture-mick.png";
+import logo from "../../../public/images/home/app-logo-1.png";
 
 import "./index.scss";
 import Zoom from 'react-reveal/Zoom';
