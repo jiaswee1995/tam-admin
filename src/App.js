@@ -7,7 +7,7 @@ import {
 
 import jwt from "jsonwebtoken";
 import "./translations/i18nify";
-import { text } from "./common/public-key";
+// import { text } from "./common/public-key";
 import { Provider } from "react-redux";
 import { RoutingTest } from "./pages";
 import Store from "./store/store";
@@ -29,14 +29,14 @@ function AppRouter() {
 
     let auth = false;
 
-    if (sessionStorage.getItem("accessToken") != null && sessionStorage.getItem("refreshToken") != null){
-        jwt.verify(sessionStorage.getItem("accessToken"), text, {algorithm: 'RS256'}, function (err, decoded_token) {
-
-            if (err === null && decoded_token !== null) {
-                auth = true;
-            }
-        });
-    }
+    // if (sessionStorage.getItem("accessToken") != null && sessionStorage.getItem("refreshToken") != null){
+    //     jwt.verify(sessionStorage.getItem("accessToken"), text, {algorithm: 'RS256'}, function (err, decoded_token) {
+    //
+    //         if (err === null && decoded_token !== null) {
+    //             auth = true;
+    //         }
+    //     });
+    // }
 
     // if (sessionStorage.getItem("accessToken") != null){
     //     jwt.verify(sessionStorage.getItem("accessToken"), text, {algorithm: 'RS256'}, function (err, decoded_token) {
