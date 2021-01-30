@@ -6,7 +6,7 @@ import "./SideBar.scss";
 // import Headers from "../Header";
 import { Typography, Layout } from 'antd';
 import { Menu } from 'antd';
-// import { MenuUnfoldOutlined, MenuFoldOutlined, HomeOutlined} from '@ant-design/icons';
+import { MenuUnfoldOutlined, MenuFoldOutlined, HomeOutlined, UserOutlined, WalletOutlined} from '@ant-design/icons';
 import { postSidebarMenu } from "../../store/ducks/menu/actions";
 import {connect} from "react-redux";
 import PropTypes from 'prop-types';
@@ -91,7 +91,7 @@ class SideBar extends Component{
         }
 
         if (nextProps.header_data !== this.props.header_data) {
-            this.props.postSidebarMenu();
+            // this.props.postSidebarMenu();
             this.setState({});
         }
     }
@@ -101,7 +101,7 @@ class SideBar extends Component{
     }
 
     componentDidMount() {
-        this.props.postSidebarMenu();
+        // this.props.postSidebarMenu();
         window.addEventListener("resize", this.updateWindowDimensions());
     }
 
@@ -194,25 +194,27 @@ class SideBar extends Component{
                         defaultSelectedKeys={this.state.selectedKey}
                         >
 
-                        {sidebar_menu}
+                        {/*{sidebar_menu}*/}
 
-                        {/*<Menu.Item key="1" icon={<HomeOutlined />}>*/}
-                        {/*    <Link to="/dashboard">*/}
-                        {/*        Dashboard*/}
-                        {/*    </Link>*/}
-                        {/*</Menu.Item>*/}
-                        {/*<SubMenu key="sub1" icon={<UserOutlined />} title="Member">*/}
-                        {/*    <Menu.Item key="1">*/}
-                        {/*        <Link to="/member/add">*/}
-                        {/*            Add Member*/}
-                        {/*        </Link>*/}
-                        {/*    </Menu.Item>*/}
-                        {/*    <Menu.Item key="2">*/}
-                        {/*        <Link to="/member">*/}
-                        {/*            Member List*/}
-                        {/*        </Link>*/}
-                        {/*        </Menu.Item>*/}
-                        {/*</SubMenu>*/}
+                        <Menu.Item key="1" icon={<HomeOutlined />}>
+                            <Link to="/dashboard">
+                                Dashboard
+                            </Link>
+                        </Menu.Item>
+                        <SubMenu key="sub1" icon={<UserOutlined />} title="Member">
+                            <Menu.Item key="2">
+                                <Link to="/member">
+                                    Member List
+                                </Link>
+                                </Menu.Item>
+                        </SubMenu>
+                        <SubMenu key="sub2" icon={<WalletOutlined />} title="Ewallet">
+                            <Menu.Item key="8">
+                                <Link to="/ewallet/withdrawApproval">
+                                    Deposit Approval
+                                </Link>
+                            </Menu.Item>
+                        </SubMenu>
 
                         {/*<SubMenu key="sub6" icon={<ApartmentOutlined />} title="Network Tree">*/}
                         {/*    <Menu.Item key="14">*/}

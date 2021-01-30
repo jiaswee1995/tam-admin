@@ -2,7 +2,7 @@ import * as type from './types';
 import axios from 'axios';
 
 export const postAdminLogin = (data) => dispatch => {
-    axios.post(process.env.REACT_APP_SLOT_URL + '/api/v1/admin/login', data, {
+    axios.post(process.env.REACT_APP_SLOT_URL + '/admin/login', data, {
         headers: { 'Content-Type': 'application/json' }
     }).then( (response) => {
         dispatch ({

@@ -14,7 +14,7 @@ import moment from 'moment';
 class dashboard extends Component{
     constructor(props){
         super(props);
-
+console.log(123);
         this.state = {
             sales_today: "0.00",
             sales_last_week: "0.00",
@@ -33,10 +33,10 @@ class dashboard extends Component{
     componentWillMount() {
         setLocale(sessionStorage.getItem("lang"));
 
-        this.props.getDashboardSales();
-        this.props.getSicboWeeklySales();
-        this.props.getSlotWeeklySales();
-        this.props.getRoulWeeklySales();
+        // this.props.getDashboardSales();
+        // this.props.getSicboWeeklySales();
+        // this.props.getSlotWeeklySales();
+        // this.props.getRoulWeeklySales();
     }
     
     componentDidMount(){

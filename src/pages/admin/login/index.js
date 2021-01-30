@@ -17,7 +17,7 @@ class adminLogin extends Component{
     constructor(props){
         super(props);
         this.state = {
-            email : "",
+            username : "",
             password: "",
             modal2Visible: true,
             lang: "en",
@@ -57,14 +57,12 @@ class adminLogin extends Component{
                 disabled: false
             });
 
-            if (nextProps.admin_data.statusCode === 200)
+            if (nextProps.admin_data.rst === '1')
             {
-                if (nextProps.admin_data.status === 'success') {
-                    sessionStorage.setItem("accessToken", nextProps.admin_data.data.access_token);
-                    sessionStorage.setItem("refreshToken", nextProps.admin_data.data.refresh_token);
+                sessionStorage.setItem("accessToken", nextProps.admin_data.data.access_token);
+                // sessionStorage.setItem("refreshToken", nextProps.admin_data.data.refresh_token);
 
-                    window.location.href = "/dashboard";
-                }
+                window.location.href = "/dashboard";
             } else {
                 let msg = nextProps.admin_data.msg;
                 message.error(msg);
@@ -83,7 +81,7 @@ class adminLogin extends Component{
         event.preventDefault('auction-form');
         const data = [];
 
-        data['email'] = this.state.email;
+        data['username'] = this.state.username;
         data['password'] = this.state.password;
 
         this.props.postAdminLogin(data);
@@ -113,7 +111,7 @@ class adminLogin extends Component{
     }
 
     render(){
-        const { email, password, loading, disabled, input_email, input_password, valid_email } = this.state;
+        const { username, password, loading, disabled, input_email, input_password, valid_email } = this.state;
         const { Option } = Select;
         const antIcon = <LoadingOutlined spin />;
         const Logo = () => (
@@ -128,7 +126,7 @@ class adminLogin extends Component{
 
             const data = {};
 
-            data.email = values.email;
+            data.username = values.username;
             data.password = values.password;
 
             this.props.postAdminLogin(data);
@@ -180,15 +178,8 @@ class adminLogin extends Component{
                             <Col xs={24} md={24}>
                                 <Form.Item
                                     props={this.state.lang}
-                                    name="email"
-                                    rules={[{
-                                        required: true,
-                                        message: input_email
-                                    },{
-                                        type: "email",
-                                        message: valid_email
-                                    }]}>
-                                    <Input size="large" prefix={<UserOutlined className="site-form-item-icon" />} placeholder={t('login.username')} value={email} onChange={this.onChange}/>
+                                    name="username">
+                                    <Input size="large" prefix={<UserOutlined className="site-form-item-icon" />} placeholder={t('login.username')} value={username} onChange={this.onChange}/>
                                 </Form.Item>
                             </Col>
                         </Row>

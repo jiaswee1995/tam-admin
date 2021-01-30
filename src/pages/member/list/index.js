@@ -90,14 +90,12 @@ class listMember extends Component {
 
     UNSAFE_componentWillReceiveProps(nextProps, nextContext) {
         if (nextProps.member_list_data !== this.props.member_list_data) {
-            if (nextProps.member_list_data.statusCode === 200) {
-                if (nextProps.member_list_data.status === "success") {
-                    this.setState({
-                        data: nextProps.member_list_data.data,
-                        total_records: nextProps.member_list_data.total_records,
-                        loading: false,
-                    });
-                }
+            if (nextProps.member_list_data.rst === '1') {
+                this.setState({
+                    data: nextProps.member_list_data.data.currentPageItems,
+                    total_records: nextProps.member_list_data.data.totalPageItems,
+                    loading: false,
+                });
             } else {
                 message.error(nextProps.member_list_data.msg);
                 this.setState({
@@ -375,19 +373,12 @@ class listMember extends Component {
             },
             {
                 title: t("table_list.user_id"),
-                dataIndex: "user_id",
-                key: "user_id",
-                sorter: (a, b) => a.user_id - b.user_id,
-                sortOrder: sortedInfo.columnKey === "user_id" && sortedInfo.order,
+                dataIndex: "username",
+                key: "username",
+                sorter: (a, b) => a.username - b.username,
+                sortOrder: sortedInfo.columnKey === "username" && sortedInfo.order,
                 ellipsis: true,
-            },
-            {
-                title: t("member_list.sponsor"),
-                dataIndex: "sponsor",
-                key: "sponsor",
-                sorter: (a, b) => a.sponsor - b.sponsor,
-                sortOrder: sortedInfo.columnKey === "sponsor" && sortedInfo.order,
-                ellipsis: true,
+                // width: "10%",
             },
             {
                 title: t("member_list.contact_no"),
@@ -396,7 +387,7 @@ class listMember extends Component {
                 sorter: (a, b) => a.mobile_no - b.mobile_no,
                 sortOrder: sortedInfo.columnKey === "mobile_no" && sortedInfo.order,
                 ellipsis: true,
-                align: "right",
+                // align: "right",
             },
             {
                 title: t("member_list.email"),
@@ -405,15 +396,6 @@ class listMember extends Component {
                 sorter: (a, b) => a.email.length - b.email.length,
                 sortOrder: sortedInfo.columnKey === "email" && sortedInfo.order,
                 ellipsis: true,
-            },
-            {
-                title: t("member_list.referral_code"),
-                dataIndex: "referral_code",
-                key: "referral_code",
-                sorter: (a, b) => a.referral_code - b.referral_code,
-                sortOrder: sortedInfo.columnKey === "referral_code" && sortedInfo.order,
-                ellipsis: true,
-                align: "right",
             },
             {
                 title: t("member_list.status"),
@@ -448,15 +430,39 @@ class listMember extends Component {
                         </>
                     );
                 },
-            },
-            {
-                title: t("table_list.created_at"),
-                dataIndex: "created_at",
-                key: "created_at",
-                sorter: (a, b) => a.created_at - b.created_at,
-                sortOrder: sortedInfo.columnKey === "created_at" && sortedInfo.order,
+            },{
+                title: t("member_list.kyc_status"),
+                dataIndex: "kyc_status",
+                key: "kyc_status",
+                sorter: (a, b) => a.kyc_status - b.kyc_status,
+                sortOrder: sortedInfo.columnKey === "kyc_status" && sortedInfo.order,
                 ellipsis: true,
-                width: "20%",
+                width: "9%",
+                render: (text, record, index) => {
+                    let color = "green";
+                    let status = "";
+
+                    switch (text.toLowerCase()) {
+                        case "a":
+                            status = t("member_list.activated");
+                            break;
+                        case "i":
+                            color = "red";
+                            status = t("member_list.inactive");
+                            break;
+                        default:
+                            color = "";
+                            status = text;
+                    }
+
+                    return (
+                        <>
+                            <Tag color={color} key={index} class>
+                                <span className="text-capitalize">{status}</span>
+                            </Tag>
+                        </>
+                    );
+                },
             },
             {
                 title: t("admin_list.action"),

@@ -27,7 +27,7 @@ import './sass/app.scss'
 
 function AppRouter() {
 
-    let auth = false;
+    let auth = true;
 
     // if (sessionStorage.getItem("accessToken") != null && sessionStorage.getItem("refreshToken") != null){
     //     jwt.verify(sessionStorage.getItem("accessToken"), text, {algorithm: 'RS256'}, function (err, decoded_token) {

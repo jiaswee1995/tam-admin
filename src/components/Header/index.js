@@ -55,12 +55,12 @@ class Headers extends Component {
     }
 
     UNSAFE_componentWillMount() {
-        if (sessionStorage.getItem("lang_arr") === null) {
-            this.props.getLanguage();
-        } else {
-            const decoded_lang = JSON.parse(sessionStorage.getItem("lang_arr"));
-            this.setState({ language: decoded_lang });
-        }
+        // if (sessionStorage.getItem("lang_arr") === null) {
+        //     this.props.getLanguage();
+        // } else {
+        //     const decoded_lang = JSON.parse(sessionStorage.getItem("lang_arr"));
+        //     this.setState({ language: decoded_lang });
+        // }
     }
 
     removeStorage(){

@@ -18,7 +18,7 @@ import axios from 'axios';
  */
 
 export const postMemberList = (data) => dispatch => {
-    axios.post(process.env.REACT_APP_SLOT_URL + '/api/v1/admin/member/list', data, {
+    axios.post(process.env.REACT_APP_SLOT_URL + '/admin/member/list', data, {
         headers: {
             'Content-Type': 'application/json',
             'Authorization': sessionStorage.getItem("accessToken")
