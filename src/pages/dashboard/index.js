@@ -347,72 +347,72 @@ console.log(123);
                             </Card>
                         </Col>
                     </Row>
-                    <br />
-                    <Row className="weekly_sales_root">
-                        <Col span={12}>
-                            <Card title={t('slot.sicbo_weekly_sales')}>
-                                <Row>
-                                    <Col span={1}><b>{t("slot.no")}</b></Col>
-                                    <Col span={4}><b>{t("slot.from")}</b></Col>
-                                    <Col span={4}><b>{t("slot.to")}</b></Col>
-                                    <Col span={4}><b>{t("slot.bet_total")}</b></Col>
-                                    <Col span={4}><b>{t("slot.bet_count")}</b></Col>
-                                    <Col span={4}><b>{t("slot.pay_total")}</b></Col>
-                                    <Col span={3}><b>{t("slot.pay_rate")}</b></Col>
-                                </Row>
-                                <hr />
-                                {sicRow}
-                            </Card>
-                        </Col>
-                        <Col span={12}>
-                            <Card title={t('slot.slot_weekly_sales')}>
-                                <Row>
-                                    <Col span={1}><b>{t("slot.no")}</b></Col>
-                                    <Col span={4}><b>{t("slot.from")}</b></Col>
-                                    <Col span={4}><b>{t("slot.to")}</b></Col>
-                                    <Col span={4}><b>{t("slot.bet_total")}</b></Col>
-                                    <Col span={4}><b>{t("slot.bet_count")}</b></Col>
-                                    <Col span={4}><b>{t("slot.pay_total")}</b></Col>
-                                    <Col span={3}><b>{t("slot.pay_rate")}</b></Col>
-                                </Row>
-                                <hr />
-                                {slotRow}
-                            </Card>
-                        </Col>
-                    </Row>
-                    <br />
-                    <Row className="weekly_sales_root">
-                        <Col span={12}>
-                            <Card title={t('slot.roulette_weekly_sales')}>
-                                <Row>
-                                    <Col span={1}><b>{t("slot.no")}</b></Col>
-                                    <Col span={4}><b>{t("slot.from")}</b></Col>
-                                    <Col span={4}><b>{t("slot.to")}</b></Col>
-                                    <Col span={4}><b>{t("slot.bet_total")}</b></Col>
-                                    <Col span={4}><b>{t("slot.bet_count")}</b></Col>
-                                    <Col span={4}><b>{t("slot.pay_total")}</b></Col>
-                                    <Col span={3}><b>{t("slot.pay_rate")}</b></Col>
-                                </Row>
-                                <hr />
-                                {roulRow}
-                            </Card>
-                        </Col>
-                        <Col span={12}>
-                            {/* <Card title={t('dashboard.slot_weekly_sales')}>
-                                <Row>
-                                    <Col span={1}><b>No</b></Col>
-                                    <Col span={4}><b>From</b></Col>
-                                    <Col span={4}><b>To</b></Col>
-                                    <Col span={4}><b>Bet Total</b></Col>
-                                    <Col span={4}><b>Bet Count</b></Col>
-                                    <Col span={4}><b>Pay Total</b></Col>
-                                    <Col span={3}><b>Pay Rate</b></Col>
-                                </Row>
-                                <hr />
-                                {slotRow}
-                            </Card> */}
-                        </Col>
-                    </Row>
+                    {/*<br />*/}
+                    {/*<Row className="weekly_sales_root">*/}
+                    {/*    <Col span={12}>*/}
+                    {/*        <Card title={t('slot.sicbo_weekly_sales')}>*/}
+                    {/*            <Row>*/}
+                    {/*                <Col span={1}><b>{t("slot.no")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.from")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.to")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.bet_total")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.bet_count")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.pay_total")}</b></Col>*/}
+                    {/*                <Col span={3}><b>{t("slot.pay_rate")}</b></Col>*/}
+                    {/*            </Row>*/}
+                    {/*            <hr />*/}
+                    {/*            {sicRow}*/}
+                    {/*        </Card>*/}
+                    {/*    </Col>*/}
+                    {/*    <Col span={12}>*/}
+                    {/*        <Card title={t('slot.slot_weekly_sales')}>*/}
+                    {/*            <Row>*/}
+                    {/*                <Col span={1}><b>{t("slot.no")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.from")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.to")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.bet_total")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.bet_count")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.pay_total")}</b></Col>*/}
+                    {/*                <Col span={3}><b>{t("slot.pay_rate")}</b></Col>*/}
+                    {/*            </Row>*/}
+                    {/*            <hr />*/}
+                    {/*            {slotRow}*/}
+                    {/*        </Card>*/}
+                    {/*    </Col>*/}
+                    {/*</Row>*/}
+                    {/*<br />*/}
+                    {/*<Row className="weekly_sales_root">*/}
+                    {/*    <Col span={12}>*/}
+                    {/*        <Card title={t('slot.roulette_weekly_sales')}>*/}
+                    {/*            <Row>*/}
+                    {/*                <Col span={1}><b>{t("slot.no")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.from")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.to")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.bet_total")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.bet_count")}</b></Col>*/}
+                    {/*                <Col span={4}><b>{t("slot.pay_total")}</b></Col>*/}
+                    {/*                <Col span={3}><b>{t("slot.pay_rate")}</b></Col>*/}
+                    {/*            </Row>*/}
+                    {/*            <hr />*/}
+                    {/*            {roulRow}*/}
+                    {/*        </Card>*/}
+                    {/*    </Col>*/}
+                    {/*    <Col span={12}>*/}
+                    {/*        /!* <Card title={t('dashboard.slot_weekly_sales')}>*/}
+                    {/*            <Row>*/}
+                    {/*                <Col span={1}><b>No</b></Col>*/}
+                    {/*                <Col span={4}><b>From</b></Col>*/}
+                    {/*                <Col span={4}><b>To</b></Col>*/}
+                    {/*                <Col span={4}><b>Bet Total</b></Col>*/}
+                    {/*                <Col span={4}><b>Bet Count</b></Col>*/}
+                    {/*                <Col span={4}><b>Pay Total</b></Col>*/}
+                    {/*                <Col span={3}><b>Pay Rate</b></Col>*/}
+                    {/*            </Row>*/}
+                    {/*            <hr />*/}
+                    {/*            {slotRow}*/}
+                    {/*        </Card> *!/*/}
+                    {/*    </Col>*/}
+                    {/*</Row>*/}
                 </div>
             </PageContent>
         )

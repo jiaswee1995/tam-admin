@@ -1,6 +1,7 @@
 import Member from "../../pages/member/add"
 import listMember from "../../pages/member/list"
 import Geneology from "../../pages/geneology"
+import KycMember from "../../pages/member/kyc"
 
 const routes = [
     {
@@ -18,6 +19,11 @@ const routes = [
     {
         path: "/member/geneology",
         component: Geneology
+    },
+
+    {
+        path: "/kyc/approval",
+        component: KycMember
     },
 ];
 

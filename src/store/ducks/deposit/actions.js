@@ -36,3 +36,22 @@ export const postDeposit = (data) => dispatch => {
 
     });
 };
+
+export const getDepositApprovalList = (res_data) => (dispatch) => {
+    axios.get(process.env.REACT_APP_SLOT_URL + '/admin/deposit/approval', {
+        params: res_data,
+        headers: {
+            'X-Authorization': 'INWILGX2OiteEiZBVpPTHiixPBJu8mjA5Bo0ekLnXra8KaK1PbTanAqr0lZic0w1'
+        }
+    }).then( (response) => {
+        dispatch ({
+            type: type.GET_DEPOSIT_APPROVAL,
+            payload: response
+        })
+    }).catch (error => {
+        dispatch ({
+            type: type.GET_DEPOSIT_APPROVAL,
+            payload: {"rst":"0","errCode":500,"msg":"system_error"}
+        });
+    });
+};

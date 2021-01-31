@@ -2,6 +2,7 @@ import Adjustment from "../../pages/ewallet/adjustment"
 import Transfer from "../../pages/ewallet/transfer"
 import Statement from "../../pages/ewallet/statement"
 import withdrawApproval from "../../pages/ewallet/withdrawApproval"
+import DepositApproval from "../../pages/ewallet/depositApproval"
 import listWalletBalance from "../../pages/ewallet/balance"
 import deposit from "../../pages/ewallet/deposit"
 import withdrawSecondApproval from "../../pages/ewallet/withdrawSecondApproval"
@@ -52,6 +53,10 @@ const routes = [
         path: "/ewallet/cryptolist",
         component: CryptoList
     },
+    {
+        path: "/ewallet/depositApproval",
+        component: DepositApproval
+    }
 ];
 
 export default routes;

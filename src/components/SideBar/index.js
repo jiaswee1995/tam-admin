@@ -206,11 +206,16 @@ class SideBar extends Component{
                                 <Link to="/member">
                                     Member List
                                 </Link>
-                                </Menu.Item>
+                            </Menu.Item>
+                            <Menu.Item key="3">
+                                <Link to="/kyc/approval">
+                                    KYC Approval
+                                </Link>
+                            </Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub2" icon={<WalletOutlined />} title="Ewallet">
-                            <Menu.Item key="8">
-                                <Link to="/ewallet/withdrawApproval">
+                            <Menu.Item key="4">
+                                <Link to="/ewallet/depositApproval">
                                     Deposit Approval
                                 </Link>
                             </Menu.Item>
